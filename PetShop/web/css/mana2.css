@@ -1,0 +1,167 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 18, 2023, 8:47:18 PM
+    Author     : ADMIN
+*/
+html{
+    overflow-x: hidden;
+}
+body{
+    background-color: gray;
+}
+.col-sm-2{
+    padding-left: 0;
+    padding-right: 0;
+    height: 750px;
+}
+aside{
+    background-color: cadetblue;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+}
+.logo img{
+    float: left;
+}
+h4{
+    float: left;
+    font-family: fantasy;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+aside button{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+aside img{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+aside ul{
+    list-style: none;
+}
+aside ul li a{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+aside ul li a.active{
+    background-color: white;
+    text-decoration: none;
+    color:black;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+aside ul li a:hover{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.logout{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 100px;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+.logout:hover{
+    background-color: rgb(79, 116, 118);
+    text-decoration: none;
+    color: white;
+}
+.table{
+    color: black;
+    width: 100%;
+}
+table{
+    width: 100%;
+    padding: 5px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px black;
+    background-color: white;
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+}
+table thead tr th:nth-child(5){
+    width: 150px;
+}
+table tbody tr td input{
+    border: 1px solid white;
+}
+table tbody tr td textarea{
+    border: 1px solid white;
+    width: 100%;
+}
+.btn{
+    cursor: pointer;
+    border: 1px solid black;
+    font-size: 10px;
+}
+.btn:hover{
+    background-color: gray;
+}
+.search{
+    margin-top: 50px;
+    width: 500px;
+    margin-left: 20%;
+}
+.search form input:first-child{
+    width: 400px;
+    border: 1px solid grey;
+}
+.pagination{
+    text-align: center; 
+    position: absolute; 
+    bottom: 5px; 
+}
+.pagination ul{
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+.pagination ul li {
+    display: inline-block;
+    margin: 0 4px;
+}
+.pagination ul li a{
+    display: inline-block;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    font-size: 15px;
+}
+.pagination a.active{
+    background-color: #ffffff;
+    color: black;
+}
+.pagination ul li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 0;
+}
+

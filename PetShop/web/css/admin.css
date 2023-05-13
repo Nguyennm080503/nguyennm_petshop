@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 17, 2023, 4:07:36 PM
+    Author     : ADMIN
+*/
+
+
+html{
+    overflow-x: hidden;
+}
+body{
+    background-color: gray;
+}
+.col-sm-2{
+    padding-left: 0;
+    padding-right: 0;
+    height: 750px;
+}
+aside{
+    background-color: cadetblue;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+}
+.logo img{
+    float: left;
+}
+h4{
+    float: left;
+    font-family: fantasy;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+aside button{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+aside img{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+ul{
+    list-style: none;
+}
+li a{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+aside ul li a.active{
+    background-color: white;
+    text-decoration: none;
+    color:black;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+li a:hover{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.logout{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 100px;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+.logout:hover{
+    background-color: rgb(79, 116, 118);
+    text-decoration: none;
+    color: white;
+}
+main div div{
+    background-color: white;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 5px rgb(82, 80, 80);
+}
+article{
+    margin-top: 100px;
+    padding: 5px;
+    color: bisque;
+    width: 200px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+

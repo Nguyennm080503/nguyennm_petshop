@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 7, 2023, 9:25:56 PM
+    Author     : ADMIN
+*/
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    width: 400px;
+    height: 600px;       
+}
+h3{
+    text-align: center;
+}
+input{
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-left: 40%;
+    background-color: gray;
+    cursor: pointer;
+}
+h2{
+    float: left;
+    margin: 5px;
+    width: 45%;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 4px solid white;
+    transition: border-bottom 2s;
+    transition-delay: 0s;
+}
+h2:hover{
+    border-bottom: 4px solid grey; 
+}
+h2.active{
+    border-bottom: 4px solid grey;
+}
+.headform{
+    margin: 5px;
+    height: 50px;
+}
+p{
+    margin: 10px;
+}
+.register{
+    display: none;
+}
+.link{
+    text-align: center;
+    margin-top: 100px;
+}
